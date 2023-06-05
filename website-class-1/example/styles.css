@@ -1,0 +1,69 @@
+body {
+	height: 100vh;
+	background-image: linear-gradient(45deg, #172554, #2e1065);
+	margin: 0;
+}
+
+.container {
+	width: 100%;
+	text-align: center;
+	padding-top: 2rem;
+}
+
+.heading {
+	width: 100%;
+	font-family: "verdana";
+}
+
+.red {
+	color: red;
+}
+
+.white {
+	color: white;
+}
+
+.blue {
+	color: blue;
+}
+
+.bg-red {
+	background-color: red;
+}
+
+.bg-green {
+	background-color: green;
+}
+
+.bg-blue {
+	background-color: blue;
+}
+
+input {
+	width: 21rem;
+	height: 1.25rem;
+	padding-right: 0.25rem;
+	padding-left: 0.25rem;
+}
+
+input:focus {
+	outline: none;
+}
+
+button {
+	margin: 1rem;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	padding-right: 1.5rem;
+	padding-left: 1.5rem;
+	outline: none;
+	border-width: 1px;
+	border-color: #374151;
+	border-radius: 0.25rem;
+	background-image: linear-gradient(45deg, #6b21a8, #be123c);
+}
+
+button:hover {
+	cursor: pointer;
+	background-image: linear-gradient(-45deg, #6b21a8, #be123c);
+}
